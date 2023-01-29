@@ -13,13 +13,14 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: url(../images/bgcopy.jpg) no-repeat center center fixed;
-    border: solid --drk-blue 1rem;
+    border: solid var(--drk-blue) 1rem;
     height: 100vh;
 }
 
 #introduction {
     font-size: 1.3rem;
     margin: 1rem 10rem;
+    padding: 1vw;
 }
 
 footer {
@@ -34,7 +35,7 @@ footer {
 }
 
 .border {
-    border: dotted --drk-blue 1rem;
+    border: dotted var(--purple) 1rem;
 }
 
 .btn {
@@ -59,8 +60,9 @@ footer {
 }
 
 h1 {
-    font-size: 6rem;
-    padding: 4vw;
+    font-size: 7rem;
+    padding: 3vw;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h2 {
@@ -69,7 +71,7 @@ h2 {
 }
 
 i {
-    color: white;
+    color: var(--purple);
     font-size: 80%;
 }
 
