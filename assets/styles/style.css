@@ -1,13 +1,48 @@
+/* 
+Colours: 
+#464089 - dark purple
+#95def8 - ice blue
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(../images/backgroundimg.jpg);
     
 }
 
-#footer {
+#introduction {
+    margin: 2rem;
+}
+
+footer {
     position: fixed;
-    bottom: 0rem;
+    bottom: 1rem;
     left: 80rem;
+}
+
+.div-box {
+    background-color: rgba(149, 222, 248, 0.3);
+}
+
+.btn {
+    padding: 0.5rem;
+    background-color: #464089;
+    color: white;
+}
+
+/* .btn:hover {
+
+} */
+
+.setup {
+    margin: 3rem;
 }
 
 .header {

@@ -22,23 +22,23 @@
     </head>
     <body>
         <!-- The Title Screen -->
-        <div id="home">
+        <div id="home" class="setup">
             <!-- Logo and title -->
-            <div>
+            <div class="div-box">
                 <h1 class="header centre"><i class="far fa-star-half"></i>The Anime Quiz</h1>
             </div>
 
             <!-- Introductory Blurb -->
-            <div class="introduction centre">
+            <div id="introduction" class="centre div-box">
                 <h2>Calling all otakus to step up and test your knowledge!</h2>
                 <p>Think you know it all when it comes to anime? Prove it and pass The Anime Quiz!</p>
             </div>
 
             <!-- Navigation area -->
-            <div class="btn">
+            <div>
                 <ul>
-                    <li><button>How to Play</button></li>
-                    <li><button>Start Quiz</button></li>
+                    <li><button class="btn">How to Play</button></li>
+                    <li><button class="btn">Start Quiz</button></li>
                 </ul>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <p>You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
                 If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
-            <button class="return">Got it!</button>
+            <button class="btn return">Got it!</button>
         </div>
 
         <!-- Quiz screen -->
@@ -86,9 +86,10 @@
         </div>
         
         <!-- Footer -->
-        <div id="footer">
+
+        <footer>
             <p>Copyright 2023 - Jessica Skidmore</p>
-        </div>
+        </footer>
 
         <!-- scripts -->
         <script src="assets/js/script.js"></script>
