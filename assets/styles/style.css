@@ -43,6 +43,7 @@ footer {
     position: fixed;
     bottom: 1rem;
     left: 80rem;
+    color: var(--ice-blue);
 }
 
 .div-box {
