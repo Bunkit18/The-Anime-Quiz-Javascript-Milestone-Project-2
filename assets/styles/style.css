@@ -23,6 +23,22 @@ body {
     padding: 1vw;
 }
 
+#instructs {
+    width: 80%;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+
+#instructs > p {
+    padding: 1rem 4rem;
+    font-size: 2rem;
+}
+
+#instructs > h2 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
 footer {
     position: fixed;
     bottom: 1rem;
@@ -68,6 +84,7 @@ h1 {
 h2 {
     font-size: 2rem;
     text-decoration: underline;
+    padding: 0.5rem;
 }
 
 i {
