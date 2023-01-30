@@ -17,6 +17,8 @@
         <!-- CSS Stylesheet and other style-based links-->
         <link rel="stylesheet" href="assets/styles/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
@@ -41,16 +43,16 @@
             <!-- Navigation area -->
             <div>
                 <ul class="centre">
-                    <li><button class="btn animation">How to Play</button></li>
-                    <li><button class="btn animation-delay">Start Quiz</button></li>
+                    <li><button id="instructions" class="btn">How to Play</button></li>
+                    <li><button id="play-game" class="btn">Start Quiz</button></li>
                 </ul>
             </div>
         </div>
 
         <!-- Quiz Instructions screen -->
-        <div id="instructions" hidden>
-            <h2>How to Play</h2>
-            <p>You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
+        <div id="instructs" class="centre" hidden>
+            <h2 class="setup">How to Play</h2>
+            <p class="div-box">You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
                 If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
             <button class="btn return">Got it!</button>
