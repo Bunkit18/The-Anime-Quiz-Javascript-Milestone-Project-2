@@ -3,7 +3,7 @@ let home = document.getElementById("home");
 let instructs = document.getElementById("instructs");
 let quiz = document.getElementById("quiz");
 
-// Question and answer variable, nested object/array within object
+// Question and answer variable, nested array/object within array
 const quizQA = [
     {
         question: "What is Naruto's sage mode called in Naruto?",
@@ -103,10 +103,10 @@ function playQuiz() {
     let questions = document.getElementById("questions");
     let answer = document.getElementById("answers");
 
-    // // iterates through quizQA object and fills the 
-    // for (let i = 0; i < quizQA.length; i++) {
-    //     questions.innerHTML = quizQA[i].question;
-    // }
+    // iterates through quizQA object and fills the 
+    for (let i = 0; i < quizQA.length; i++) {
+        questions.textContent = quizQA[i].question;
+    }
 }
 
 
