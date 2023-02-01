@@ -91,7 +91,7 @@ function returnHome() {
 
 /**
  * Toggles the quiz screen section to visible and makes the all other sections hidden
- * Iterates and fills html sections with contents of const object
+ * Iterates and fills html sections with contents of const array
  */
 function playQuiz() {
     // toggle visibility
@@ -101,12 +101,25 @@ function playQuiz() {
 
     // accesses DOM elements and assigns to variables
     let questions = document.getElementById("questions");
-    let answer = document.getElementById("answers");
+    // let answer = document.getElementById("answers");
 
-    // iterates through quizQA object and fills the 
+    // iterates through quizQA object and fills the question h1 element and answers elements using quizQA array
     for (let i = 0; i < quizQA.length; i++) {
         questions.textContent = quizQA[i].question;
+        
+        break;
     }
+}
+
+function checkScore() {
+    
+}
+
+function incrementScore() {
+    let score = 0;
+    score += score+10;
+    let scoreBox = document.getElementById("score");
+    scoreBox.textContent = `${score}`;
 }
 
 

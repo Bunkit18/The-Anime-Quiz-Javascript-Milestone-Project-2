@@ -55,7 +55,7 @@
             <p>You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
                 If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
-            <p>Your scores will be kept in the upper right corner as a mark out of a possible 100.</p>
+            <p>Your scores will be kept in the lower right corner as a mark out of a possible 100.</p>
             <p>If you want to exit the quiz, click on the Anime Quiz logo in the top left corner at any time!</p>
             <button id="instruct-home" class="btn">Got it!</button>
         </div>
@@ -68,15 +68,16 @@
             </div>
 
             <!-- Quiz Section -->
-
             <div id="question-section" class="div-box">
                 <!-- question heading populated by javascript function using object-->
                 <h1 id="questions"></h1>
                 <!-- four options populated by javascript function using object-->
-                                
-                <button id="submit">Submit!</button>
+                               
+                <button type="submit" id="submit" class="btn">Submit!</button>
             </div>
-
+            <div id="score-area">
+                <p>Score: <span id="score">0</span></p>
+            </div>
         </div>
         
         <!-- Footer -->
