@@ -25,7 +25,7 @@ body {
 
 #instructs {
     width: 80%;
-    margin: 4rem auto;
+    margin: 2rem auto;
     padding: 1rem;
 }
 
@@ -97,9 +97,30 @@ ul {
     margin: 2vw;
 }
 
-li {
+#instructions:hover {
+    cursor: help;
+}
+
+.centre > li {
     list-style-type: none;
     text-align: right;
     display: inline;
     padding: 0.5vw;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#logo > p {
+    font-size: 2rem;
+}
+
+#question-section {
+    margin: 4rem;
 }

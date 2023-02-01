@@ -43,8 +43,8 @@
             <!-- Navigation area -->
             <div>
                 <ul class="centre">
-                    <li><button id="instructions" class="btn">How to Play</button></li>
-                    <li><button id="play-game" class="btn">Start Quiz</button></li>
+                    <li><button id="instructions" class="btn underline">How to Play</button></li>
+                    <li><button id="play-game" class="btn underline">Start Quiz</button></li>
                 </ul>
             </div>
         </div>
@@ -55,6 +55,7 @@
             <p>You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
                 If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
+            <p>Your scores will be kept in the upper right corner as a mark out of a possible 100.</p>
             <p>If you want to exit the quiz, click on the Anime Quiz logo in the top left corner at any time!</p>
             <button id="instruct-home" class="btn">Got it!</button>
         </div>
@@ -62,21 +63,20 @@
         <!-- Quiz screen -->
         <div id="quiz" hidden>
             <!-- anime quiz logo -->
-            <div>
+            <div id="logo">
+                <p class="underline"><i class="far fa-star-half"></i>The Anime Quiz</p>
+            </div>
 
+            <!-- Quiz Section -->
+
+            <div id="question-section" class="div-box">
+                <!-- question heading populated by javascript function using object-->
+                <h1 id="questions"></h1>
+                <!-- four options populated by javascript function using object-->
+                                
+                <button id="submit">Submit!</button>
             </div>
-            
-            <div id="question-section">
-                <!-- question heading populated by javascript -->
-                <h2></h2>
-                <!-- four options populated by javascript -->
-                <ul>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                </ul>
-            </div>
+
         </div>
         
         <!-- Footer -->
