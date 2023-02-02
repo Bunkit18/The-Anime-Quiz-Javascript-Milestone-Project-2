@@ -52,7 +52,7 @@
         <!-- Quiz Instructions screen -->
         <div id="instructs" class="centre div-box border" hidden>
             <h2><i class="far fa-star-half"></i>How to Play</h2><br>
-            <p>You'll be given 15 questions and four possible answers for each. Click your chosen answer and press submit. 
+            <p>You'll be given 10 questions and four possible answers for each. Click your chosen answer and press submit. 
                 If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
             <p>Your scores will be kept in the lower right corner as a mark out of a possible 100.</p>
@@ -71,8 +71,15 @@
             <div id="question-section" class="div-box">
                 <!-- question heading populated by javascript function using object-->
                 <h1 id="questions"></h1>
+                <img id="image" src="" alt="">
                 <!-- four options populated by javascript function using object-->
-                               
+                <div id="answers">                
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
                 <button type="submit" id="submit" class="btn">Submit!</button>
             </div>
             <div id="score-area">

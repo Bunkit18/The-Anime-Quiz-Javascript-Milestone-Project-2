@@ -7,52 +7,62 @@ let quiz = document.getElementById("quiz");
 const quizQA = [
     {
         question: "What is Naruto's sage mode called in Naruto?",
-        answers: ["Toad Sage Mode", "Snake Sage Mode", "Lizard Sage Mode", "Dragon Sage Mode"]
+        answers: ["Toad Sage Mode", "Snake Sage Mode", "Lizard Sage Mode", "Dragon Sage Mode"],
+        correctAnswer: "Toad Sage Mode"
     },
     
     {
         question: "Who is Rin Okumura's father in Blue Exocist?",
-        answers: ["Shiro Fujimoto", "Satan", "Yukio Okumura", "Igor Neuhaus"]
+        answers: ["Shiro Fujimoto", "Satan", "Yukio Okumura", "Igor Neuhaus"],
+        correctAnswer: "Satan"
     },
     
     {
         question: "What is the name of the guild Kirito joins in Sword Art Online?",
-        answers: ["Moonlit Black Cats", "Knights of the Blood", "Aincrad Liberation Force", "Titan's Hand"]
+        answers: ["Moonlit Black Cats", "Knights of the Blood", "Aincrad Liberation Force", "Titan's Hand"],
+        correctAnswer: "Moonlit Black Cats"
     },
 
     {
         question: "Who is NOT a member of the Future Gadget Lab in Steins;Gate?",
-        answers: ["Itaru Hashida", "Kiryuu Moeka", "Kurisu Makise", "Yugo Tennouji"]
+        answers: ["Itaru Hashida", "Kiryuu Moeka", "Kurisu Makise", "Yugo Tennouji"],
+        correctAnswer: "Yugo Tennouji"
     }, 
 
     {
         question: "What is the name of Midoriya Izuku's quirk in My Hero Academia?",
-        answers: ["All for One", "Bruiser", "Charging Muscles", "One for All"]
+        answers: ["All for One", "Bruiser", "Charging Muscles", "One for All"],
+        correctAnswer: "One for All"
     },
 
     {
         question: "How many Sukuna's fingers did Itadori Yuji eat in Jujutsu Kaisen?",
-        answers: ["3", "4", "6", "2"]
+        answers: ["3", "4", "6", "2"],
+        correctAnswer: "4"
     },
 
     {
         question: "What colour is Violet's brooch in Violet Evergarden?",
-        answers: ["Red", "Blue", "Green", "Purple"]
+        answers: ["Red", "Blue", "Green", "Purple"],
+        correctAnswer: "Green"
     },
 
     {
         question: "What is the name of the ophanage 'Mama' in the Promised Neverland?",
-        answers: ["Gilda", "Isabella", "Emma", "Viviana"]
+        answers: ["Gilda", "Isabella", "Emma", "Viviana"],
+        correctAnswer: "Isabella"
     },
 
     {
         question: "What is the name of Kaneki Ken's kagune in Tokyo Ghoul?",
-        answers: ["Koukaku", "Bikaku", "Chimera", "Rinkaku"]
+        answers: ["Koukaku", "Bikaku", "Chimera", "Rinkaku"],
+        correctAnswer: "Rinkaku"
     },
 
     {
         question: "What is the name of Eren Yaeger's first Titan in Attack on Titan?",
-        answers: ["Attack Titan", "Colossal Titan", "Founding Day Titan", "Armored Titan"]
+        answers: ["Attack Titan", "Colossal Titan", "Founding Day Titan", "Armored Titan"],
+        correctAnswer: "Attack Titan"
     }
 ];
 
@@ -101,18 +111,24 @@ function playQuiz() {
 
     // accesses DOM elements and assigns to variables
     let questions = document.getElementById("questions");
-    // let answer = document.getElementById("answers");
+    let answers = document.getElementById("answers").children;
+    let imageSpace = document.getElementById("image");
 
     // iterates through quizQA object and fills the question h1 element and answers elements using quizQA array
     for (let i = 0; i < quizQA.length; i++) {
         questions.textContent = quizQA[i].question;
+        imageSpace.src = "assets/images/naruto.jpg";
         
+        for (let j = 0; j < 4; j++) {
+            answers[j].textContent = quizQA[i].answers[j];
+            answers[j].addEventListener("click", makeActive);
+        }
         break;
     }
 }
 
-function checkScore() {
-    
+function makeActive() {
+
 }
 
 function incrementScore() {
