@@ -8,7 +8,8 @@ const quizQA = [
     {
         question: "What is Naruto's sage mode called in Naruto?",
         answers: ["Toad Sage Mode", "Snake Sage Mode", "Lizard Sage Mode", "Dragon Sage Mode"],
-        correctAnswer: "Toad Sage Mode"
+        correctAnswer: "Toad Sage Mode",
+        img: "assets/images/naruto.jpg"
     },
     
     {
@@ -117,18 +118,31 @@ function playQuiz() {
     // iterates through quizQA object and fills the question h1 element and answers elements using quizQA array
     for (let i = 0; i < quizQA.length; i++) {
         questions.textContent = quizQA[i].question;
-        imageSpace.src = "assets/images/naruto.jpg";
+        imageSpace.src = quizQA[i].img;
         
         for (let j = 0; j < 4; j++) {
             answers[j].textContent = quizQA[i].answers[j];
-            answers[j].addEventListener("click", makeActive);
+            answers[j].addEventListener("click", checkAnswer);
         }
         break;
     }
 }
 
-function makeActive() {
+function checkAnswer() {
+    if (this.textContent === quizQA[i].correctAnswer) {
+        this.style.backgroundColor = "Green";
+        incrementScore();
+    } else {
+        this.style.backgroundColor = "Red";
+    }
+}
 
+function correct(corAns) {
+    corAns.style.backgroundColor = "Green";
+}
+
+function incorrect(inAns) {
+    inAns.style.backgroundColor = "Red";
 }
 
 function incrementScore() {
