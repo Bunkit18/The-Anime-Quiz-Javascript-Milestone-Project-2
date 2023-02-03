@@ -137,6 +137,14 @@ function checkAnswer() {
     }
 }
 
+function correct(corAns) {
+    corAns.style.backgroundColor = "Green";
+}
+
+function incorrect(inAns) {
+    inAns.style.backgroundColor = "Red";
+}
+
 function incrementScore() {
     let score = 0;
     score += 10;
