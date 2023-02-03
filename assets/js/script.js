@@ -137,17 +137,9 @@ function checkAnswer() {
     }
 }
 
-function correct(corAns) {
-    corAns.style.backgroundColor = "Green";
-}
-
-function incorrect(inAns) {
-    inAns.style.backgroundColor = "Red";
-}
-
 function incrementScore() {
     let score = 0;
-    score += score+10;
+    score += 10;
     let scoreBox = document.getElementById("score");
     scoreBox.textContent = `${score}`;
 }
