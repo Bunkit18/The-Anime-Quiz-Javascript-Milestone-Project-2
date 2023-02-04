@@ -145,6 +145,7 @@ function playQuiz() {
             answers[j].addEventListener("click", function() {
                 if (this.innerText === quizQA[i].correctAnswer) {
                     this.style.backgroundColor = "green";
+                    incrementScore();
                     // wait for 1 second and then move to the next question
                     setTimeout(function() {
                         if (i === quizQA.length) {
@@ -165,20 +166,20 @@ function playQuiz() {
     }
 }
 
-function checkAnswer() {
-    for (let i = 0; i < quizQA.length; i++) {
-        if (this.textContent === quizQA) {
+// function checkAnswer() {
+//     for (let i = 0; i < quizQA.length; i++) {
+//         if (this.textContent === quizQA) {
 
-        }
-    }
+//         }
+//     }
 
-    if (this.textContent === quizQA.correctAnswer) {
-        this.style.backgroundColor = "Green";
-        incrementScore();
-    } else {
-        this.style.backgroundColor = "Red";
-    }
-}
+//     if (this.textContent === quizQA.correctAnswer) {
+//         this.style.backgroundColor = "Green";
+//         incrementScore();
+//     } else {
+//         this.style.backgroundColor = "Red";
+//     }
+// }
 
 function incrementScore() {
     let score = 0;
