@@ -39,14 +39,14 @@ const quizQA = [
         question: "What is the name of the guild Kirito joins in Sword Art Online?",
         answers: ["Moonlit Black Cats", "Knights of the Blood", "Aincrad Liberation Force", "Titan's Hand"],
         correctAnswer: "Moonlit Black Cats",
-        img: "assets/images/violet.jpg"
+        img: "assets/images/kirito.png"
     },
 
     {
         question: "Who is NOT a member of the Future Gadget Lab in Steins;Gate?",
         answers: ["Itaru Hashida", "Kiryuu Moeka", "Kurisu Makise", "Yugo Tennouji"],
         correctAnswer: "Yugo Tennouji",
-        img: "assets/images/violet.jpg"
+        img: "assets/images/steins.png"
     }, 
 
     {
