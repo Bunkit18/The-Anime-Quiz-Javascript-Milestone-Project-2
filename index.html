@@ -26,12 +26,14 @@
         <title>The Anime Quiz</title>
     </head>
     <body>
+
         <!-- The Title Screen -->
-        <div id="home" class="setup">
+        <header id="home" class="setup">
             <!-- Logo and title -->
             <div class="border div-box">
                 <h1 class="centre"><i class="far fa-star-half"></i>The Anime Quiz</h1>
             </div>
+        
 
             <!-- Introductory Blurb -->
             <div id="introduction" class="centre div-box">
@@ -41,37 +43,41 @@
             </div>
 
             <!-- Navigation area -->
-            <div>
+            <nav>
                 <ul class="centre">
                     <li><button id="instructions" class="btn underline">How to Play</button></li>
                     <li><button id="play-game" class="btn underline">Start Quiz</button></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
 
         <!-- Quiz Instructions screen -->
-        <div id="instructs" class="centre div-box border" hidden>
+        <section id="instructs" class="centre div-box border" hidden>
             <h2><i class="far fa-star-half"></i>How to Play</h2><br>
-            <p>You'll be given 10 questions and four possible answers for each. Click your chosen answer and press submit. 
-                If you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
+            <p>You'll be given 10 questions and four possible answers for each. Click on your chosen answer,
+                if you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
             </p>
             <p>Your scores will be kept in the lower right corner as a mark out of a possible 100.</p>
             <p>If you want to exit the quiz, click on the Anime Quiz logo in the top left corner at any time!</p>
             <button id="instruct-home" class="btn">Got it!</button>
-        </div>
+        </section>
 
         <!-- Quiz screen -->
-        <div id="quiz" hidden>
+        <main id="quiz" hidden>
             <!-- anime quiz logo -->
             <div id="logo">
                 <p class="underline"><i class="far fa-star-half"></i>The Anime Quiz</p>
+            </div>
+
+            <div id="score-area">
+                <p><b>Score: <span id="score">0</span></b></p>
             </div>
 
             <!-- Quiz Section -->
             <div id="question-section" class="div-box">
                 <!-- question heading populated by javascript function using object-->
                 <h1 id="questions"></h1>
-                <img id="image" src="" alt="">
+                <img id="image" src="" alt="Pictures of the ten anime characters in the quiz">
                 <!-- four options populated by javascript function using object-->
                 <div id="answers">                
                     <button class="btn"></button>
@@ -79,17 +85,11 @@
                     <button class="btn"></button>
                     <button class="btn"></button>
                 </div>
-
-                <!-- <button type="submit" id="submit" class="btn">Submit!</button> -->
             </div>
-            <div id="score-area">
-                <p>Score: <span id="score">0</span></p>
-            </div>
-        </div>
+        </main>
         
         <!-- Footer -->
-
-        <footer>
+        <footer id="footer">
             <p>Copyright 2023 - Jessica Skidmore</p>
         </footer>
 

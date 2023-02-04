@@ -129,7 +129,7 @@ function playQuiz() {
 }
 
 function checkAnswer() {
-    if (this.textContent === quizQA[i].correctAnswer) {
+    if (this.textContent === quizQA.correctAnswer) {
         this.style.backgroundColor = "Green";
         incrementScore();
     } else {
