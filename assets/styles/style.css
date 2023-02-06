@@ -56,6 +56,8 @@ body {
 
 #logo > p {
     font-size: 2.5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
 }
 
 #question-section {
@@ -83,16 +85,19 @@ body {
 
 #next-question {
     margin: 1.5rem;
-    font-size: 5rem;
+    font-size: 4rem;
     display: block;
     position: absolute;
-    left: 82rem;
-    bottom: 17rem;
-    border-radius: 5rem;
+    left: 83.4rem;
+    bottom: 11.6rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--purple);
+    height: 17rem;
 }
 
 #next-question:hover {
-    color: var(--drk-blue);
+    background-color: var(--drk-blue);
 }
 
 #score-area {
