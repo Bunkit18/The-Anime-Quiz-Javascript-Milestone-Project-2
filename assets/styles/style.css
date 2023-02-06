@@ -43,7 +43,7 @@ body {
 
 #instructs > h2 {
     font-size: 3rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 #logo {
@@ -113,6 +113,12 @@ body {
     bottom: 1rem;
     left: 80rem;
     color: var(--ice-blue);
+}
+
+#modal {
+    width: 80% auto;
+    border-radius: 1rem;
+    background-color: var(--purple);
 }
 
 /* Class styles */

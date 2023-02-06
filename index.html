@@ -54,8 +54,9 @@
         <!-- Quiz Instructions screen -->
         <section id="instructs" class="centre div-box border" hidden>
             <h2><i class="far fa-star-half"></i>How to Play</h2><br>
-            <p>You'll be given 10 questions and four possible answers for each. Click on your chosen answer,
-                if you got the answer right, the button will turn green, otherwise if you got it wrong, it will turn red.
+            <p>You'll be given 10 questions and four possible answers. Click your chosen answer,
+                if you have got the answer right, the button will turn green, otherwise if it's wrong, it will turn red!<br>
+                Click the '>' arrow to proceed to the next question.
             </p>
             <p>Your scores will be kept in the lower right corner as a mark out of a possible 100.</p>
             <p>If you want to exit the quiz, click on the Anime Quiz logo in the top left corner at any time!</p>
@@ -86,6 +87,16 @@
                     <button class="btn"></button>
                 </div>
                 <button id="next-question">></button>
+            </div>
+
+            <!-- Pop-up modal end of quiz -->
+            <div id="modal" hidden>
+                <div id="modal-content">
+                    <h2>Congratulations"</h2>
+                    <p>You've reached the end of the quiz! Your final score was <span id="score-result"></span>!</p>
+                    <p></p>
+                    <button id="modal-button">Thanks!</button>
+                </div>
             </div>
         </main>
         
