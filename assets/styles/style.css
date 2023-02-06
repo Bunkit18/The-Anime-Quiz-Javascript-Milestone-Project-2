@@ -72,9 +72,27 @@ body {
     margin: 1.5rem;
     display: block;
     width: 30rem;
+}
+
+#answers {
     position: relative;
     left: 45rem;
     bottom: 20rem;
+    width: 30rem;
+}
+
+#next-question {
+    margin: 1.5rem;
+    font-size: 5rem;
+    display: block;
+    position: absolute;
+    left: 82rem;
+    bottom: 17rem;
+    border-radius: 5rem;
+}
+
+#next-question:hover {
+    color: var(--drk-blue);
 }
 
 #score-area {
@@ -82,6 +100,7 @@ body {
     position: relative;
     left: 81rem;
     top: 2.5rem;
+    width: 10rem;
 }
 
 #footer {

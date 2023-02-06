@@ -13,11 +13,13 @@ instructHome.addEventListener("click", returnHome);
 
 // add event listener to start quiz button
 let startQuiz = document.getElementById("play-game");
-startQuiz.addEventListener("click", playQuiz);
+startQuiz.addEventListener("click", showQuizSection);
 
 // Adds event lister to quiz logo or easy return to home screen
 let quizHome = document.getElementById("logo");
 quizHome.addEventListener("click", returnHome);
+
+let currentQuestionIndex = 0;
 
 // Question and answer variable, nested array/object within array
 const quizQA = [
@@ -112,72 +114,99 @@ function returnHome() {
 /**
  * Toggles the quiz screen section to visible and makes the all other sections hidden
  */
-function showQuiz() {
+function showQuizSection() {
     // toggle visibility
     home.hidden = true;
     instructs.hidden = true;
     quiz.hidden = false;
+    document.getElementById("next-question").hidden = true;
+    addQuestionAnswers();
 }
 
-/**
- * Toggles the quiz screen section to visible and makes the all other sections hidden
- * Iterates and fills html sections with contents of const array
- */
-function playQuiz() {
-    
-    showQuiz();
-
+function addQuestionAnswers() {
     // accesses DOM elements and assigns to variables
     let questions = document.getElementById("questions");
     let answers = document.querySelectorAll("#answers > button");
     let imageSpace = document.getElementById("image");
 
     // iterates through quizQA object and fills the question h1 element and answers elements using quizQA array
-    for (let i = 0; i < quizQA.length; i++) {
-        questions.textContent = quizQA[i].question;
-        imageSpace.src = quizQA[i].img;
-        for (let j = 0; j < 4; j++) {
-            //iterates answers into button text content
-            answers[j].textContent = quizQA[i].answers[j];
-
-            //adds event listener to each button and performs check on the button thats clicked against correctAnswer.
-            //changes backgroundColor accordingly
-            answers[j].addEventListener("click", function() {
-                if (this.innerText === quizQA[i].correctAnswer) {
-                    this.style.backgroundColor = "green";
-                    incrementScore();
-                    // wait for 1 second and then move to the next question
-                    setTimeout(function() {
-                        if (i === quizQA.length) {
-                            return;
-                        } else {
-                            {
-                                btn.style.backgroundColor = "#464089";
-                            }
-                        }
-                    }, 1000);
-                } else {
-                    this.style.backgroundColor = "red";
-                }
-            });
-
-        }
-        break;
+    questions.textContent = quizQA[currentQuestionIndex].question;
+    imageSpace.src = quizQA[currentQuestionIndex].img;
+    for (let j = 0; j < 4; j++) {
+        //iterates answers into button text content
+        answers[j].textContent = quizQA[currentQuestionIndex].answers[j];
+        answers[j].addEventListener("click", checkAnswer);
     }
+} 
+
+function checkAnswer() {
+    
+    if (this.textContent === quizQA[currentQuestionIndex].correctAnswer) {
+        this.style.backgroundColor = "green";
+        incrementScore();
+    } else {
+        this.style.backgroundColor = "red";
+        let buttons = document.querySelectorAll("#answers > button");
+        for (let i = 0; i < 4; i++) {
+            if (buttons[i].textContent === quizQA[currentQuestionIndex].correctAnswer) {
+                buttons[i].style.backgroundColor = "green";
+            }
+        }
+    }
+    currentQuestionIndex++;
+    document.getElementById("next-question").hidden = false;
 }
 
-// function checkAnswer() {
+// if (currentQuestionIndex === quizQA.length) {
+//     return;
+// } else {
+//     btn.style.backgroundColor = "#464089";
+// }
+
+/**
+ * Toggles the quiz screen section to visible and makes the all other sections hidden
+ * Iterates and fills html sections with contents of const array
+ */
+// function playQuiz() {
+    
+//     showQuiz();
+
+//     // accesses DOM elements and assigns to variables
+//     let questions = document.getElementById("questions");
+//     let answers = document.querySelectorAll("#answers > button");
+//     let imageSpace = document.getElementById("image");
+
+//     // iterates through quizQA object and fills the question h1 element and answers elements using quizQA array
 //     for (let i = 0; i < quizQA.length; i++) {
-//         if (this.textContent === quizQA) {
+//         questions.textContent = quizQA[i].question;
+//         imageSpace.src = quizQA[i].img;
+//         for (let j = 0; j < 4; j++) {
+//             //iterates answers into button text content
+//             answers[j].textContent = quizQA[i].answers[j];
+
+//             //adds event listener to each button and performs check on the button thats clicked against correctAnswer.
+//             //changes backgroundColor accordingly
+//             answers[j].addEventListener("click", function() {
+//                 if (this.innerText === quizQA[i].correctAnswer) {
+//                     this.style.backgroundColor = "green";
+//                     incrementScore();
+//                     // wait for 1 second and then move to the next question
+//                     setTimeout(function() {
+//                         if (i === quizQA.length) {
+//                             return;
+//                         } else {
+//                             {
+//                                 btn.style.backgroundColor = "#464089";
+//                             }
+//                         }
+//                     }, 1000);
+//                 } else {
+//                     this.style.backgroundColor = "red";
+//                 }
+//             });
 
 //         }
-//     }
-
-//     if (this.textContent === quizQA.correctAnswer) {
-//         this.style.backgroundColor = "Green";
-//         incrementScore();
-//     } else {
-//         this.style.backgroundColor = "Red";
+//         break;
 //     }
 // }
 
