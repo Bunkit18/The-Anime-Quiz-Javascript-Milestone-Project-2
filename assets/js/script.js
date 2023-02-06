@@ -25,6 +25,8 @@ let currentQuestionIndex = 0;
 //Keeps track of the score
 let score = 0;
 
+let highscore = 0;
+
 // Question and answer variable, nested array/object within array
 const quizQA = [
     {
@@ -192,8 +194,31 @@ function incrementScore() {
     }
 }
 
+/**
+ * Displays a modal box at the end of the quiz
+ */
 function displayModal() {
-    
+    quiz.hidden = true;
+    document.getElementById("end-quiz").hidden = false;   
+    document.getElementById("score-result").textContent = score; 
+    customResult();
+}
+
+/**
+ * Inserts a sentence from an array into a p element in the DOM depending on result
+ */
+function customResult() {
+    let para = ["You did great! You've proven yourself the king of anime knowledge",
+                "You did okay but there's still room for improvement! Try Again!",
+                "Boo! You did terrible! Watch some more anime then try again, scrub!"];
+    if (score > 80){
+        document.getElementById("custom-result").textContent = para[0];
+    } else if (score > 50) {
+        document.getElementById("custom-result").textContent = para[1];
+    } else {
+        document.getElementById("custom-result").textContent = para[2];
+    }
+
 }
 
 

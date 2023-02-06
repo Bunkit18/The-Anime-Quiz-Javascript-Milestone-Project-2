@@ -115,12 +115,6 @@ body {
     color: var(--ice-blue);
 }
 
-#modal {
-    width: 80% auto;
-    border-radius: 1rem;
-    background-color: var(--purple);
-}
-
 /* Class styles */
 
 .setup {
