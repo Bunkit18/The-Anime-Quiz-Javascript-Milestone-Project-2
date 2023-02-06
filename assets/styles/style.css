@@ -108,6 +108,21 @@ body {
     width: 10rem;
 }
 
+#end-quiz {
+    width: 80%;
+    margin: 10rem auto;
+    height: 50%;
+    font-size: 2rem;
+}
+
+#end-quiz > * {
+    padding: 1rem;
+}
+
+#end-quiz > h2 {
+    font-size: 2rem;
+}
+
 #footer {
     position: fixed;
     bottom: 1rem;

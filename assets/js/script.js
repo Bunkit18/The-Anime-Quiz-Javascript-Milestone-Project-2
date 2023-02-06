@@ -25,7 +25,10 @@ let currentQuestionIndex = 0;
 //Keeps track of the score
 let score = 0;
 
-let highscore = 0;
+let highscore = [];
+
+let endQuiz = document.getElementById("end-button");
+endQuiz.addEventListener("click", returnHome);
 
 // Question and answer variable, nested array/object within array
 const quizQA = [
@@ -115,6 +118,7 @@ function returnHome() {
     home.hidden = false;
     instructs.hidden = true;
     quiz.hidden = true;
+    document.getElementById("end-quiz").hidden = true; 
     currentQuestionIndex = 0;
     document.getElementById("score").textContent = 0;
 }
@@ -139,6 +143,8 @@ function showQuizSection() {
 function addQuestionAnswers() {
     if (currentQuestionIndex === quizQA.length) {
         displayModal();
+        highscore.push(score);
+        console.log(highscore);
     }
 
     // accesses DOM elements and assigns to variables
