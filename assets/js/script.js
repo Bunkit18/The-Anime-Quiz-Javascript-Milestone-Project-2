@@ -25,8 +25,6 @@ let currentQuestionIndex = 0;
 //Keeps track of the score
 let score = 0;
 
-let highscore = [];
-
 let endQuiz = document.getElementById("end-button");
 endQuiz.addEventListener("click", returnHome);
 
@@ -142,9 +140,7 @@ function showQuizSection() {
  */
 function addQuestionAnswers() {
     if (currentQuestionIndex === quizQA.length) {
-        displayModal();
-        highscore.push(score);
-        console.log(highscore);
+        displayCongrats();
     }
 
     // accesses DOM elements and assigns to variables
@@ -203,7 +199,7 @@ function incrementScore() {
 /**
  * Displays a modal box at the end of the quiz
  */
-function displayModal() {
+function displayCongrats() {
     quiz.hidden = true;
     document.getElementById("end-quiz").hidden = false;   
     document.getElementById("score-result").textContent = score; 

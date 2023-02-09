@@ -247,6 +247,7 @@ img {
 }
 
 @media only screen and (max-width: 920px) {
+    
     #instructions, #play-game {
         margin: 0.5rem;
     }
@@ -258,12 +259,6 @@ img {
 
     body {
         background-size: cover;
-    }
-}
-
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
-    #home {
-        
     }
 }
 
@@ -297,13 +292,20 @@ img {
 }
 
 @media only screen and (max-width: 410px) {
+    #introduction > h2 {
+        font-size: 1.5rem;
+    }
+
+    #introduction > h3 {
+        font-size: 1rem;
+    }
+    
     #instructions, #play-game {
         font-size: 1.5rem;
     }
 
     body {
         height: auto;
-        background: url(../images/bgcopy.jpg) no-repeat center center cover;
     }
 }
 
