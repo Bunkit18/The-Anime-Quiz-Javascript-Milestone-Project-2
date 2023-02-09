@@ -125,8 +125,8 @@ body {
 
 #footer {
     position: fixed;
-    bottom: 1rem;
-    left: 80rem;
+    bottom: 0.2rem;
+    left: 1rem;
     color: var(--ice-blue);
 }
 
@@ -206,3 +206,62 @@ img {
     display: inline-block;
     padding-left: 5rem;
 }
+
+/************ Media Queries ***********/
+
+@media only screen and (max-width: 1280px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    #introduction {
+        font-size: 1.2rem;
+        margin: 1rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #introduction {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #instructions, #play-game {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #introduction {
+        font-size: 1rem;
+    }
+
+    #footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+}
+
+
