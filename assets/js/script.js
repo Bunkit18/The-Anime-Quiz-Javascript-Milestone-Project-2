@@ -210,7 +210,7 @@ function displayCongrats() {
  * Inserts a sentence from an array into a p element in the DOM depending on result
  */
 function customResult() {
-    let para = ["You did great! You've proven yourself the king of anime knowledge",
+    let para = ["You did great! You've proven yourself the king of anime knowledge!",
                 "You did okay but there's still room for improvement! Try Again!",
                 "Boo! You did terrible! Watch some more anime then try again, scrub!"];
     if (score > 80){
