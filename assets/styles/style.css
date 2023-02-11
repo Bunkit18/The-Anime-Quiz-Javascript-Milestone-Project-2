@@ -77,7 +77,6 @@ body {
 #answers {
     display: inline-block;
     width: 25rem;
-    /* float: right; */
 }
 
 #answers > button {
@@ -87,12 +86,11 @@ body {
 }
 
 #next-question {
+    display: inline;
+    float: right;
+    width: 3rem; 
     margin: 1.5rem;
     font-size: 4rem;
-    /* display: block;
-    position: absolute;
-    left: 83.4rem;
-    bottom: 11.6rem; */
     border-radius: 0.5rem;
     color: white;
     background-color: var(--purple);
