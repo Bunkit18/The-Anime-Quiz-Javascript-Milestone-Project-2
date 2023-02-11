@@ -18,6 +18,7 @@ body {
 }
 
 /* HTML ID styles */
+/* Home Section */
 
 #introduction {
     font-size: 1.3rem;
@@ -29,6 +30,8 @@ body {
 #instructions:hover {
     cursor: help;
 }
+
+/* Instructions Section */
 
 #instructs {
     width: 80%;
@@ -46,6 +49,8 @@ body {
     padding: 1rem 2rem;
 }
 
+/* Quiz Section */
+
 #logo {
     display: block;
 }
@@ -61,8 +66,7 @@ body {
 }
 
 #question-section {
-    margin: 3rem 4rem;
-    height: 30rem;
+    margin: 1rem 4rem;
 }
 
 #questions {
@@ -70,26 +74,25 @@ body {
     padding: 1.5vw 3vw;
 }
 
-#answers > .btn {
-    margin: 1.5rem;
-    display: block;
-    width: 30rem;
+#answers {
+    display: inline-block;
+    width: 25rem;
+    /* float: right; */
 }
 
-#answers {
-    position: relative;
-    left: 45rem;
-    bottom: 20rem;
-    width: 30rem;
+#answers > button {
+    margin: 1rem 2rem;
+    width: 20rem;
+
 }
 
 #next-question {
     margin: 1.5rem;
     font-size: 4rem;
-    display: block;
+    /* display: block;
     position: absolute;
     left: 83.4rem;
-    bottom: 11.6rem;
+    bottom: 11.6rem; */
     border-radius: 0.5rem;
     color: white;
     background-color: var(--purple);
@@ -102,11 +105,11 @@ body {
 
 #score-area {
     font-size: 1.5rem;
-    position: relative;
-    left: 81rem;
-    top: 2.5rem;
-    width: 10rem;
+    margin: 3rem 6rem 0;
+    text-align: right;
 }
+
+/* Congratulations Section */
 
 #end-quiz {
     width: 80%;
@@ -122,6 +125,8 @@ body {
 #end-quiz > h2 {
     font-size: 2rem;
 }
+
+/* Universal Footer */
 
 #footer {
     position: fixed;
@@ -174,10 +179,6 @@ body {
     text-decoration-thickness: 0.1rem;
 }
 
-.hidden {
-    display: none;
-}
-
 /* Element styles */
 
 h1 {
@@ -203,7 +204,8 @@ ul {
 
 img {
     height: 20rem;
-    display: inline-block;
+    margin: 0 1rem 3rem 1rem;
+    display: inline;
     padding-left: 5rem;
 }
 
