@@ -25,6 +25,7 @@ let currentQuestionIndex = 0;
 //Keeps track of the score
 let score = 0;
 
+// Add event listener to button in congrats section at end of quiz
 let endQuiz = document.getElementById("end-button");
 endQuiz.addEventListener("click", returnHome);
 

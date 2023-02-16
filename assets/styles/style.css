@@ -212,9 +212,58 @@ img {
 
 /************ Media Queries ***********/
 
+@media only screen and (max-width: 1500px) {
+    #questions {
+        font-size: 2.5rem;
+    }
+    
+    #answers {
+        margin-left: 5rem;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     #instructs > p {
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    #answers {
+        margin-left: 1rem;
+        width: 18rem;
+    }
+
+    #answers > button {
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+
+    #next-question {
+        font-size: 3rem;
+        width: 2rem;
+        height: 15rem;
+    }
+
+    img {
+        padding-left: 2rem;
+    }
+
+    #end-quiz {
+        height: 80%;
+        margin: 5rem auto;
+    }
+
+    #end-quiz > h2 {
+        font-size: 1.5rem;
+    }
+
+    #end-quiz > p {
+        font-size: 1.5rem;
+    }
+
+    #end-quiz > button {
+        margin: 1.5rem 2rem;
     }
 }
 
@@ -232,6 +281,18 @@ img {
     #introduction {
         font-size: 1.2rem;
         margin: 1rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    img {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    #answers {
+        margin-left: 12rem;
     }
 }
 
@@ -262,6 +323,17 @@ img {
 
     body {
         background-size: cover;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        height: 15rem;
+    }
+
+    #answers {
+        margin-left: 5rem;
     }
 }
 
@@ -288,15 +360,83 @@ img {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    #questions {
+        text-align: center;
+    }
+    
+    img {
+        max-width: 20rem;
+    }
+    
+    #answers {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #answers > button {
+        width: 8rem;
+    }
+
+    #answers {
+        width: 10rem;
+    }
+
+    #next-question {
+        height: 25rem;
+    }
+}
+
 @media only screen and (max-width: 540px) {
     #instructs > p {
         padding: 0.5rem 1rem;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    img {
+        height: 10rem;
+        max-width: 15rem;
+        padding-left: 0;
+    }
+
+    #question-section {
+        margin: 1rem;
+    }
+
+    #score-area {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #instructs > p {
+        font-size: 1rem;
+    }
+
+    #instructs > .btn {
+        margin: 1rem;
+    }
+
+    #logo > p {
+        font-size: 2rem;
+    }
+
+    #next-question {
+        margin: 1rem;
+    }
+
+    
+}
+
 @media only screen and (max-width: 410px) {
+    #introduction {
+        margin: 1rem;
+    }
+    
     #introduction > h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #introduction > h3 {
@@ -309,6 +449,22 @@ img {
 
     body {
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #next-question {
+        height: 5rem;
+        width: 5rem;
+        margin-left: 2rem;
+    }
+
+    #end-quiz > h2 {
+        font-size: 1rem;
+    }
+
+    #end-quiz > p {
+        font-size: 1rem;
     }
 }
 
