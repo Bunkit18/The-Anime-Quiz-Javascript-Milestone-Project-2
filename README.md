@@ -204,12 +204,14 @@ Languages used in this project:
 
 * HTML5
 * CSS3
+* Javascript
 
 Frameworks, Libraries and Programs used:
 
 * [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - responsive media queries.
 * [Hover.css](https://ianlunn.github.io/Hover/) - for :hover instances for links.
-* [Balsamiq](https://balsamiq.com/) - wireframes.
+* [Balsamiq](https://balsamiq.com/) - partial wireframe.
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop/) - additional wireframe features
 * [Google Fonts](https://fonts.google.com/) - Fonts.
 * [Font Awesome](https://fontawesome.com/) - Icons.
 * [Github](https://github.com/) - repository storage.
