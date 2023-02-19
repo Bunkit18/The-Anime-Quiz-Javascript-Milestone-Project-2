@@ -75,7 +75,7 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
 * ## Typography
 
-    Using [Google Fonts](https://fonts.google.com/), I matched up my preferred font style for TielBible and decided on Roboto Condensed n regular 400 as a header font, and Nunito for lesser headers and paragraphs in Extra Light 200. This had a clean and condensed look, with the Roboto font being a popular choice for fonts in website design. 
+    Using [Google Fonts](https://fonts.google.com/), I matched up my preferred font style for The Anime Quiz and decided on Orbitron in regular 400 as a header font, and Trebuchet MS for lesser headers and paragraphs. This had a clean and condensed look, with the Trebuchet font being a popular choice for subtitle fonts in anime. 
     
     Both used sans serif as a fallback font in the event that either chosen font doesn't load.  
 
