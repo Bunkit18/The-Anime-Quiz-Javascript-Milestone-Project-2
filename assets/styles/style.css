@@ -84,7 +84,7 @@ body {
 #answers > button {
     margin: 1rem 2rem;
     width: 25rem;
-
+    cursor: pointer;
 }
 
 #next-question {

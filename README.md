@@ -137,41 +137,37 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
 
 * ## Current Features
 
-    ### Navigation Bar 
+    ### Title page and Navigation
 
-    * Situated at the top of all TielBible pages, the user can easily access and navigate to all pages of the site.
+    * The front page upon loading the site. The page includes the Anime Quiz header and logo, introductory greeting, brief hint to users where to navigate for the quiz or for instructions, two buttons in a nav section that leads to instructions on how to play or the quiz and a small footer.
 
-    * The active page alerts the user which page they are currently on and hovering over the navigation elements underlines each section.
+    * The Home page section is the only html section that is visible on-load. The home page can be toggled based on user interaction (buttons).
 
-    * The circular search bar is operational and opens out using CSS animation. 
+    * The instructions button cursor changes to the help cursor to assist in conveying to the user the location for help.
 
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172004.png)
+    ![Title Page](assets/images/ReadMe%20Images/home-page.png)
 
-    ### Footer links
+    ![Help Cursor](assets/images/ReadMe%20Images/help-cursor.png)
 
-    * Social media links are presented via their known logos and change colour on hover. Clicking on the links takes the user to the external website in a new window. 
+    ### Instructions Page
 
-    * Clicking on the link to subscribe to the mailing list initiates a popup overlay box form, which allows the user to enter their details and submit their preferences. The submit button takes the user to the thankyou.html page which thanks them for their submission and offers redirection to the main page. 
+    * The instructions page contains a simple header, paragraph element and button on a coloured div backdrop to assist with font accessibility.
 
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172040.png)
+    * The button returns the user to the main home page after confirming they had read the instructions, which toggled the visibility of the instructions and home pages.  
 
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172109.png)
+    ![Instructions Page](assets/images/ReadMe%20Images/Instructions-Page.png)
 
-    ### Page Title cards
+    ### Quiz Page
 
-    * Pages of large or diverse content all include a title informational cards that briefly summarise what would be covered and learned in that page, along with navigational links to major sub-headings. 
+    * The quiz page is included in the main section of content for the site, which includes: 
 
-    * The design is kept consistent across all cards and links change colour upon mouse hover. 
-
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172143.png)
-
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172213.png)
-
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172229.png)
-
-    ### Video Controls
-
-    * Supplementary videos when provided all have controls so users can pause or replay as required.
+        - An interactable Anime Quiz Logo, that will underline on hover of the mouse to inform the user of the link effect.
+        - A score area that keeps track of the users correct answers in a series of 10 points, populated by javascript. 
+        - A header in which the question will be shown using javascript.
+        - An image in which javascript will display an image related to the question.
+        - Four buttons containing four possible answers, populated by javascript, which the user can interact with and will change colour according to whether the answer chosen is correct or incorrect.
+        - An arrowed button that directs the user to the next question.
+        - A coloured div backdrop to assist in font contrast for accesibility purposes. 
 
     ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172357.png)
 
