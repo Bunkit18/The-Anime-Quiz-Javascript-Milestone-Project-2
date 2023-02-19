@@ -99,28 +99,30 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
 * ## Wireframes
 
-    Initial Wireframes were produced in [Balsamiq](https://balsamiq.com/)
+    Initial Wireframe template was sourced from [Balsamiq](https://balsamiq.com/) and supplemented in Adobe Photoshop.
 
-    Home page wireframe:
+    Home page wireframe - There were three initial designs for the home page and all three, including the final design are below:
 
-    ![Home page wireframe](assets/images/wireframe/frame%20%23%20redo.png)
+    ![Home page mock-up 1](assets/images/ReadMe%20Images/Home%20-%20mock%201.png)
 
-    Home page with modal box:
+    ![Home page mock-up 2](assets/images/ReadMe%20Images/Home%20-%20mock%202.png)
 
-    ![Home page with modal box](assets/images/wireframe/frame%20%23redo.png)
+    ![Home page Final](assets/images/ReadMe%20Images/Home%20-%20mock%203.png)
 
-    Page Contents Structure wireframe:
+    Instructions page:
 
-    ![Page contents structure](assets/images/wireframe/frame%204.png)
+    ![Instructions page](assets/images/ReadMe%20Images/instructs.png)
 
-    Vets Locations embedded map page:
+    Quiz Page:
 
-    ![Vets locations maps page](assets/images/wireframe/frame%205.png)
+    ![Quiz page](assets/images/ReadMe%20Images/quiz.png)
 
-    Contact page and form wireframe:
+    Congratulations Page:
 
-    ![Contact page](assets/images/wireframe/frame%206.png)
+    ![Congratulations page](assets/images/ReadMe%20Images/congrats.png)
 
+    These are not individual html pages. The website was designned to maximise the use of Javascript, therefore only one html page is used and the different sections are toggled using javascript.
+    
     There may be differentation in the final site due to responsiveness.
 
     [Return to top](<#table-of-contents>)
