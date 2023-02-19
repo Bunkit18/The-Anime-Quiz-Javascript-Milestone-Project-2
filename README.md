@@ -221,22 +221,26 @@ Frameworks, Libraries and Programs used:
 
 # Testing 
 
-Testing was involved in every stage of the creation of TielBible's creation, in an ongoing process with Google's Developer Tools, as well as WC3's validation services for HTML markup and CSS. 
+Testing was involved in every stage of the creation of The Anime Quiz's creation, in an ongoing process with Google's Developer Tools, as well as WC3's validation services for HTML markup and CSS. 
 
-Upon finalisation of TielBible, the site passed its responsiveness tests though Chromes developer tools responsiveness checker.
+Upon finalisation of The Anime Quiz, the site passed its responsiveness tests though Chromes developer tools responsiveness checker.
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 - A large amount of testing was done to ensure that all pages were linking correctly.
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. It was also peer code reviewed by other students at Code Institute.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 [Return to top](<#table-of-contents>)
 
 * ## W3C Validation
 
-    All pages of TielBible have been validated by these services, which ensure that the syntax for the site is clear and error-free.
+    The Anime Quiz site has been validated by these services, which ensure that the syntax for the site is clear and error-free.
 
-    ![Validation](assets/images/validation.png)
+    ![W3C Validation](assets/images/ReadMe%20Images/W3C-HTML-Validation.png)
+
+    ![Jigsaw CSS Validation](assets/images/ReadMe%20Images/Jigsaw-CSS-Validation.png)
+
+    ![Jshint Javascript Linter](assets/images/ReadMe%20Images/Jshint-JavaScript-Linter.png)
 
     [Return to top](<#table-of-contents>)
 
@@ -321,19 +325,43 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
 
         **Issue #1**
 
-        - Issue with responsiveness of the site using chrome dev tools. 
+        - Issue with event listeners in javascript for button elements
         
         Status: **FIXED**
 
-        Solution: Changes to CSS code units from px to % / rem where possible which auto-corrects own responsiveness to viewport width of device viewing the site. 
+        Solution: Remove function brackets '()'. 
 
         **Issue #2**
 
-        - Issue with the submit button of the forms for mailing list and contact page. Deviated to an error page.
+        - Issue with insertion of variable key / value pairs to DOM elements
+        
+        Status: **FIXED**
+
+        Solution: Changed the quizQA variable into an array of objects instead of nested objects as could not iterate through using indexing.
+
+        **Issue #3**
+
+        - Issue with instant cycling through array of questions and answers and presenting only the final question
 
         Status: **FIXED**
 
-        Solution: Removed '#' action and replaced with local 'thankyou.html' page. Removed POST method. 
+        Solution: Separate the play-quiz function into separate functions that correlates to specific parts using user interactivity (buttons).
+
+        **Issue #4**
+
+        - Issue with images not showing when deployed using javascript function
+
+        Status: **FIXED**
+
+        Solution: Understood that image location would still be relative to the html file instead of the javascript file and changed the image path of all img key / value pairs.
+
+        **Issue #5**
+
+        - Random indentation of elements in the quiz section making each section incrementally indented from left to right.
+
+        Status: **FIXED**
+
+        Solution: Added vertical-align: top to elements this occured on.
 
         [Return to top](<#table-of-contents>)
 
@@ -341,7 +369,7 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
 
 * ### GitHub Pages
 
-    The TieBible project was deployed to GitHub Pages using the following steps:
+    The Anime Quiz project was deployed to GitHub Pages using the following steps:
 
     1. Log in to GitHub and locate the GitHub Repository
     2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
