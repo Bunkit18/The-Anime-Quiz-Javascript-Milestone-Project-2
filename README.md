@@ -87,11 +87,11 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
     Other images in The Anime Quiz are the ownership of the creators of the anime themselves, however, had been sourced by the following websites, through the use of Google:
 
-    *[Deviant Art - Superheroarts](https://www.deviantart.com/superheroarts)
+    * [Deviant Art - Superheroarts](https://www.deviantart.com/superheroarts)
 
-    *[Pinterest](https://www.pinterest.co.uk/pin/774830310863531564/)
+    * [Pinterest](https://www.pinterest.co.uk/pin/774830310863531564/)
 
-    *[Fandom](https://characters.fandom.com/wiki/Kazuto_Kirigaya)
+    * [Fandom](https://characters.fandom.com/wiki/Kazuto_Kirigaya)
 
     The direct sources of some of the images used could not be traced due to extensive use among a large variety of sites. 
 
