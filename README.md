@@ -83,21 +83,17 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
 * ## Imagery
 
-    My hero image is an image of a standard grey cockatiel, the most common colour variation as detailed in my site. The image was sourced from [pixabay](https://pixabay.com/), where a lot of TielBible images were sourced from. It was the ideal image for my hero image to present the site topic most clearly and in the most emotionally impacting and stiking way.
+    My background image is a digital art piece by artist [SeerLight](https://www.deviantart.com/seerlight), which depicts a male anime character riding a bicycle against a saturated pink and blue skyline. The image was found on [Google](https://www.google.com/), where a lot of The Anime Quiz images were sourced from. It was the ideal image for the quiz as the palette was playful and vibrant yet relaxing.
 
-    Other images in TielBible have been influenced or sourced by the following websites:
+    Other images in The Anime Quiz are the ownership of the creators of the anime themselves, however, had been sourced by the following websites, through the use of Google:
 
-    *[Corbyn the Cockatiel Page](https://www.facebook.com/CorbynTheCockatiel)
+    *[Deviant Art - Superheroarts](https://www.deviantart.com/superheroarts)
 
-    *[Google.com](https://www.google.com)
+    *[Pinterest](https://www.pinterest.co.uk/pin/774830310863531564/)
 
-    *[Pexels.com](https://www.pexels.com/)
+    *[Fandom](https://characters.fandom.com/wiki/Kazuto_Kirigaya)
 
-    *[unsplash.com](https://unsplash.com/)
-
-    *[freeimages.com](https://www.freeimages.com/)
-
-    *[rawpixel.com](https://www.rawpixel.com/)
+    The direct sources of some of the images used could not be traced due to extensive use among a large variety of sites. 
 
     [Return to top](<#table-of-contents>)
 
