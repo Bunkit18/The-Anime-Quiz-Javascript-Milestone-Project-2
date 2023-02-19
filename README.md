@@ -129,9 +129,9 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
 # Features
 
-TielBible was created with ease of navigation in mind. A navigation bar is included in the header for all pages, with clear titles of the context of the information provided in each page. Each page, if required, has clearly defined links to each sub-section. Pages are designed to be simple and have an overarching structure through pages to ensure the site is easy to use and navigate.
+The Anime Quiz was created with ease of navigation in mind. A navigation bar is included in the home page, headed by a h1 header element and containing the two buttons for navigation. Each section has a linked connection to each section for easy site navigation. Each section is designed to be simple and have a simplistic structure to ensure the site is easy to use and navigate and that the User Interface isn't too cluttered or hard to navigate.
     
-All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page doesn't differ in different viewports.
+All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page may differ in different viewports.
 
 [Return to top](<#table-of-contents>)
 
