@@ -6,7 +6,7 @@ The Anime Quiz will test users on 10 different anime, provide four possible answ
 
 From one anime lover to another, welcome to <a href="https://github.com/Bunkit18/The-Anime-Quiz-Javascript-Milestone-Project-2">**The Anime Quiz**</a>.
 
-![Tielbible-responsivity](assets/images/tielbible-responsive.png)
+![The-Anime-Quiz-responsivity](assets/images/ReadMe%20Images/Responsive.png)
 
 # Table of Contents
 
