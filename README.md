@@ -61,23 +61,15 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
 * ## Colour Scheme
 
-    The colour scheme was initially determined through two cockatiel colour palettes found on [Google](https://www.google.com): 
+    The colour scheme was determined based on the initial background image found on Google by the artist [SeerLight](https://www.deviantart.com/seerlight) using [Colour Picker online](https://imagecolorpicker.com/en), which extracted the following chosen palette.
 
-    Palette #1 :
+    ![Background Image](assets/images/bgcopy.jpg)
 
-    ![Cockatiel Palette 1](assets/images/Cocktiel-colour-scheme.png)
+    Palette :
 
-    Palette #2 :
-    
-    ![Cockatiel Palette 2](assets/images/Cocktiel-colour-scheme2.png)
+    ![Anime Quiz Palette](assets/images/ReadMe%20Images/colourpalette.png)
 
-    After deciding to take on board palette #2, I trialed various colour compositions on the site, before deciding to use only 3 of the colours in the palette, with 3 differing hues of two of the colours, which I found with [colour-hex.com](<https://www.color-hex.com/>). 
-
-    My final colour scheme was therefore:
-
-    ![TielBible Palette](assets/images/palette.png)
-
-    This palette was chosen to be personal to the common cockatiel colouration while also adding in saturated hues to stand out be more visually striking.
+    This palette was chosen due to the fantasy style the colour palette portrayed and how the colours were playful and bright, which suited the aim of the quiz. White or black font were chosen as required to ensure readability for all users.
 
     [Return to top](<#table-of-contents>)
 
