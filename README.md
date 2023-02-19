@@ -188,11 +188,13 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
 
 This section contains ideas for potential upgrades to the site in the near future.
 
-* A page dedicated to health and injury / sickness concerns that may be commonly or rarely known, for users to better understand the potential concerns they have for their tiels.
+* A randomisation feature for the question and answers variables that randomises the order in which the questions are presented.
 
-* A forum discussion where likeminded tiel owners can come together and discuss a variety of topics, including bt not limited to: chop recipes, DIY toy making or wholesome introduction pages for their feathered friends.
+* Different difficulty levels which would increase the number of questions asked and the difficulty of the questions.
 
-* A breeder / pet store review and rating system for stores, pet hotels and breeders in the UK, to improve solidarity between users, prevent scams and keep all Tiels safe.
+* Animation features for the title page and quiz page that adds more interactivity to the page, animates the buttons or shows a burst of confetti upon completion of the quiz.
+
+* A scoreboard where the can enter a username and logs their highscores.
 
 [Return to top](<#table-of-contents>)
 
