@@ -165,26 +165,22 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
         - A score area that keeps track of the users correct answers in a series of 10 points, populated by javascript. 
         - A header in which the question will be shown using javascript.
         - An image in which javascript will display an image related to the question.
-        - Four buttons containing four possible answers, populated by javascript, which the user can interact with and will change colour according to whether the answer chosen is correct or incorrect.
+        - Four buttons containing four possible answers, populated by javascript, which the user can interact with and will change colour according to whether the answer chosen is correct or incorrect. If the incorrect answer is chosen, the correct answer will also change colour to reveal the correct answer to the user.
         - An arrowed button that directs the user to the next question.
         - A coloured div backdrop to assist in font contrast for accesibility purposes. 
 
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172357.png)
+    ![Quiz Page](assets/images/ReadMe%20Images/Quiz-Page.png)
+    ![Quiz Page correct and incorrect answer change](assets/images/ReadMe%20Images/correct-answer.png)
 
-    ### Specialised Embedded Google Map
+    ### Congratulations Page
 
-    * A specialised self-created map of the UK with verified exotic and avian treating veterinarians has been created and embedded solely for the use of users of TielBible. The map can be zoomed in on and details about the veterinary service can be accessed through clicking on the location.
+    * A page that thanks the user for playing, provides their final score and adds a line of text depending on their final score. The final button relocates the user to the main home page of the quiz.
 
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172248.png)
+    ![Congratulations Page including good score text](assets/images/ReadMe%20Images/congrats-page.png)
 
-    ### Contact Form for all Occasions
+    ![Mid Level score text](assets/images/ReadMe%20Images/congrats-msg2.png)
 
-    * The contact form can be filled in and submitted by users for a variety of different reasons and have the ability to customise their preferences for contact (e.g. phone) 
-
-    * A cute picture of a cockatiel (Owned by Corbyn the Cockatiel) resides nearby the form for aesthetic presentation.
-
-    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172311.png)
-
+    ![Low score text](assets/images/ReadMe%20Images/congrats-msg.png)
 
 [Return to top](<#table-of-contents>)
 
