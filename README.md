@@ -399,11 +399,11 @@ Upon finalisation of The Anime Quiz, the site passed its responsiveness tests th
     5. Change the current working directory to the location where you want the cloned directory to be made.
     6. Type git clone, and then paste the URL you copied in Step 3.
     
-            $ git clone https://github.com/bunkit18/TielBible-Project-1-HTML-and-CSS/
+            $ git clone https://github.com/Bunkit18/The-Anime-Quiz-Javascript-Milestone-Project-2
 
     7. Press Enter. Your local clone will be created.
 
-            $ git clone https://github.com/bunkit18/TielBible-Project-1-HTML-and-CSS/
+            $ git clone https://github.com/Bunkit18/The-Anime-Quiz-Javascript-Milestone-Project-2
 
             > Cloning into `CI-Clone`...
             > remote: Counting objects: 10, done.
@@ -418,15 +418,13 @@ Upon finalisation of The Anime Quiz, the site passed its responsiveness tests th
 
 ## Credits
 
-Credits for all imagery used in TielBible are in the [Imagery](<#imagery>) section.
+Credits for all imagery used in The Anime Quiz are in the [Imagery](<#imagery>) section.
 
 Further credits are due to:
 
-* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) for constant reference and assistance on html and css code posibilities.
+* [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and [MDN](https://developer.mozilla.org/en-US/) for constant reference and assistance on html and css code possibilities.
 
-* Fellow Code Institute peers on the Slack channel, who peer reviewed my code and provided feedback on how to better my project.
-
-* Users and creators of [YouTube](www.youtube.com), of which informational videos I have used in the making of my project (which have been credited in the live deployment beneath each video)
+* Fellow javascript users, who reviewed my code and provided feedback on any bugs experienced on Discord.
 
 * Any other user of the internet or website from which evaluating their source code and processes aided me in creating and fleshing out my own. 
 
