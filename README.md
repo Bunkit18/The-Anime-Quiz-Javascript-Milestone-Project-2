@@ -6,7 +6,7 @@ The Anime Quiz will test users on 10 different anime, provide four possible answ
 
 From one anime lover to another, welcome to <a href="https://github.com/Bunkit18/The-Anime-Quiz-Javascript-Milestone-Project-2">**The Anime Quiz**</a>.
 
-![The-Anime-Quiz-responsivity](assets/images/ReadMe%20Images/Responsive.png)
+![The-Anime-Quiz-responsivity](assets/images/ReadMe-Images/Responsive.png)
 
 # Table of Contents
 
@@ -67,7 +67,7 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
     Palette :
 
-    ![Anime Quiz Palette](assets/images/ReadMe%20Images/colourpalette.png)
+    ![Anime Quiz Palette](assets/images/ReadMe-Images/colourpalette.png)
 
     This palette was chosen due to the fantasy style the colour palette portrayed and how the colours were playful and bright, which suited the aim of the quiz. White or black font were chosen as required to ensure readability for all users.
 
@@ -103,23 +103,23 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
     Home page wireframe - There were three initial designs for the home page and all three, including the final design are below:
 
-    ![Home page mock-up 1](assets/images/ReadMe%20Images/Home%20-%20mock%201.png)
+    ![Home page mock-up 1](assets/images/ReadMe-Images/Home%20-%20mock%201.png)
 
-    ![Home page mock-up 2](assets/images/ReadMe%20Images/Home%20-%20mock%202.png)
+    ![Home page mock-up 2](assets/images/ReadMe-Images/Home%20-%20mock%202.png)
 
-    ![Home page Final](assets/images/ReadMe%20Images/Home%20-%20mock%203.png)
+    ![Home page Final](assets/images/ReadMe-Images/Home%20-%20mock%203.png)
 
     Instructions page:
 
-    ![Instructions page](assets/images/ReadMe%20Images/instructs.png)
+    ![Instructions page](assets/images/ReadMe-Images/instructs.png)
 
     Quiz Page:
 
-    ![Quiz page](assets/images/ReadMe%20Images/quiz.png)
+    ![Quiz page](assets/images/ReadMe-Images/quiz.png)
 
     Congratulations Page:
 
-    ![Congratulations page](assets/images/ReadMe%20Images/congrats.png)
+    ![Congratulations page](assets/images/ReadMe-Images/congrats.png)
 
     These are not individual html pages. The website was designned to maximise the use of Javascript, therefore only one html page is used and the different sections are toggled using javascript.
     
@@ -145,9 +145,9 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
 
     * The instructions button cursor changes to the help cursor to assist in conveying to the user the location for help.
 
-    ![Title Page](assets/images/ReadMe%20Images/home-page.png)
+    ![Title Page](assets/images/ReadMe-Images/home-page.png)
 
-    ![Help Cursor](assets/images/ReadMe%20Images/help-cursor.png)
+    ![Help Cursor](assets/images/ReadMe-Images/help-cursor.png)
 
     ### Instructions Page
 
@@ -155,7 +155,7 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
 
     * The button returns the user to the main home page after confirming they had read the instructions, which toggled the visibility of the instructions and home pages.  
 
-    ![Instructions Page](assets/images/ReadMe%20Images/Instructions-Page.png)
+    ![Instructions Page](assets/images/ReadMe-Images/Instructions-Page.png)
 
     ### Quiz Page
 
@@ -169,18 +169,18 @@ All pages are responsive for other viewports, such as tablets and mobiles. The s
         - An arrowed button that directs the user to the next question.
         - A coloured div backdrop to assist in font contrast for accesibility purposes. 
 
-    ![Quiz Page](assets/images/ReadMe%20Images/Quiz-Page.png)
-    ![Quiz Page correct and incorrect answer change](assets/images/ReadMe%20Images/correct-answer.png)
+    ![Quiz Page](assets/images/ReadMe-Images/Quiz-Page.png)
+    ![Quiz Page correct and incorrect answer change](assets/images/ReadMe-Images/correct-answer.png)
 
     ### Congratulations Page
 
     * A page that thanks the user for playing, provides their final score and adds a line of text depending on their final score. The final button relocates the user to the main home page of the quiz.
 
-    ![Congratulations Page including good score text](assets/images/ReadMe%20Images/congrats-page.png)
+    ![Congratulations Page including good score text](assets/images/ReadMe-Images/congrats-page.png)
 
-    ![Mid Level score text](assets/images/ReadMe%20Images/congrats-msg2.png)
+    ![Mid Level score text](assets/images/ReadMe-Images/congrats-msg2.png)
 
-    ![Low score text](assets/images/ReadMe%20Images/congrats-msg.png)
+    ![Low score text](assets/images/ReadMe-Images/congrats-msg.png)
 
 [Return to top](<#table-of-contents>)
 
@@ -236,11 +236,11 @@ Upon finalisation of The Anime Quiz, the site passed its responsiveness tests th
 
     The Anime Quiz site has been validated by these services, which ensure that the syntax for the site is clear and error-free.
 
-    ![W3C Validation](assets/images/ReadMe%20Images/W3C-HTML-Validation.png)
+    ![W3C Validation](assets/images/ReadMe-Images/W3C-HTML-Validation.png)
 
-    ![Jigsaw CSS Validation](assets/images/ReadMe%20Images/Jigsaw-CSS-Validation.png)
+    ![Jigsaw CSS Validation](assets/images/ReadMe-Images/Jigsaw-CSS-Validation.png)
 
-    ![Jshint Javascript Linter](assets/images/ReadMe%20Images/Jshint-JavaScript-Linter.png)
+    ![Jshint Javascript Linter](assets/images/ReadMe-Images/Jshint-JavaScript-Linter.png)
 
     [Return to top](<#table-of-contents>)
 
