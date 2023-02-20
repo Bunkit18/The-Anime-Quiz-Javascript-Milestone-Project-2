@@ -242,6 +242,8 @@ Upon finalisation of The Anime Quiz, the site passed its responsiveness tests th
 
     ![Jshint Javascript Linter](assets/images/ReadMe-Images/Jshint-JavaScript-Linter.png)
 
+    ![Chrome Developer Tools Lighthouse](assets/images/ReadMe-Images/Lighthouse-Validation.png)
+
     [Return to top](<#table-of-contents>)
 
 * ## User Experience Testing
