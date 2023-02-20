@@ -103,11 +103,11 @@ From one anime lover to another, welcome to <a href="https://github.com/Bunkit18
 
     Home page wireframe - There were three initial designs for the home page and all three, including the final design are below:
 
-    ![Home page mock-up 1](assets/images/ReadMe-Images/Home%20-%20mock%201.png)
+    ![Home page mock-up 1](assets/images/ReadMe-Images/Home-mock1.png
 
-    ![Home page mock-up 2](assets/images/ReadMe-Images/Home%20-%20mock%202.png)
+    ![Home page mock-up 2](assets/images/ReadMe-Images/Home-mock2.png)
 
-    ![Home page Final](assets/images/ReadMe-Images/Home%20-%20mock%203.png)
+    ![Home page Final](assets/images/ReadMe-Images/Home-mock3.png)
 
     Instructions page:
 
